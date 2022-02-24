@@ -69,9 +69,9 @@ int QuickSort(int a[], int low, int high)
 	{
 		// Partitioning array using randomized pivot.
 		pindex = RandomPivotPartition(a, low, high);
-		if(pindex - low < high - pindex)
-		{
-		   	// Recursively implementing QuickSort.
+		if(pindex - low < high - pindex) //SEDGEWICK'S Algorithm
+		{//Recurse on the smaller subarray first.
+		   	
 		    QuickSort(a, low, pindex-1);
 		    low = pindex + 1;
 		}
