@@ -27,7 +27,11 @@ Choosing the pivot randomly reduces the probability of picking the smallest elem
 Sedgwick Quicksort Algorithm:
 ![image](https://user-images.githubusercontent.com/88283180/155743467-574c6a91-df14-4d3e-85d8-195b72fce280.png)
 
-Sedgwick algorithm uses both recursion and iteration. In the algorithm, we recurse on the smaller partition first, update the relevant variables and go back to the iteration. Now, if we consider a sorted array, the depth of the call stack is only 1 element deep. In the worst case which will occur if we have a pivot element which partitions the array into exactly equal halves in each recursion then the call stack depth will be lgn. 
+Sedgwick algorithm uses both recursion and iteration. In the algorithm, we recurse on the smaller partition first, update the relevant variables and go back to the iteration.
+
+Lets consider a sorted array, while dry running the algorithm you will find, the depth of the call stack is only 1 element deep. 
+
+In the worst case which will occur if we have a pivot element which partitions the array into exactly equal halves in each recursion then the call stack depth will be lgn. 
 
 
 
