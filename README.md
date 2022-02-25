@@ -1,17 +1,23 @@
 # Randomized Quicksort 
 Based on Sedgwick Quicksort’s Algorithm.
+
 Pivot selection process is randomized.
+
 Randomization is achieved using pseudorandom function.
+
 In theory, selecting pivots randomly decreases the time complexity of the algorithm.
+
 Sedgwick implementation is used for space optimization.
 
 ## Space-Time Analysis of Algorithm:
 Time Complexity:
 Worst Case of standard implementation: O(n2).
+
 Randomized Quicksort Worst Case: O(nlgn) according to amortized analysis.
 
 Space Complexity:
 Worst Case of standard implementation: θ(n).
+
 Randomized Quicksort Worst Case: θ(lgn).
 
 ### Institution behind using the randomized approach: 
