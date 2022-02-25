@@ -9,7 +9,7 @@ In theory, selecting pivots randomly decreases the time complexity of the algori
 
 Sedgwick implementation is used for space optimization.
 
-## Space-Time Analysis of Algorithm:
+### Space-Time Analysis of Algorithm:
 Time Complexity:
 Worst Case of standard implementation: O(n^2).
 
@@ -23,8 +23,8 @@ Randomized Quicksort Worst Case: θ(lgn).
 ### Institution behind using the randomized approach: 
 Choosing the pivot randomly reduces the probability of picking the smallest element as pivot which reduces no of swap operations required for sorting. 
 
-#### Institution behind Sedgwick Implementation:
-##### Sedgwick Quicksort Algorithm:
+### Institution behind Sedgwick Implementation:
+#### Sedgwick Quicksort Algorithm:
 
 ![image](https://user-images.githubusercontent.com/88283180/155743467-574c6a91-df14-4d3e-85d8-195b72fce280.png)
 
