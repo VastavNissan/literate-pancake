@@ -11,7 +11,7 @@ Sedgwick implementation is used for space optimization.
 
 ## Space-Time Analysis of Algorithm:
 Time Complexity:
-Worst Case of standard implementation: O(n2).
+Worst Case of standard implementation: O(n^2).
 
 Randomized Quicksort Worst Case: O(nlgn) according to amortized analysis.
 
